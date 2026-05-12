@@ -177,3 +177,12 @@ plt.legend()
 plt.grid(True)
 plt.show()
 ---------------------------------------------------------------------------------------------------------------------------------------
+SONUÇLAR : 
+
+Apriori ve FP-Growth algoritmaları aynı veri seti üzerinde benzer frequent itemset ve association rule sonuçları üretmiştir. Grafiksel analizde her iki algoritmanın support ve confidence değerlerinin örtüştüğü gözlemlenmiştir. Bu durum, algoritmaların doğruluk açısından eşdeğer olduğunu, ancak FP-Growth algoritmasının aday üretmeden çalışması nedeniyle daha yüksek performans sunduğunu göstermektedir.
+
+En kritik fark :
+
+*** Apriori aday üretir, FP-Growth aday üretmez.
+
+*** FP-Growth aynı işi daha hızlı yapar çünkü veriyi sıkıştırır.
